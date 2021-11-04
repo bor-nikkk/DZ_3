@@ -12,7 +12,26 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="materialButtonStyle">@style/Theme.DZ4ed</item>
+
     </style>
+
+
+    <style name="Theme.DZ4ed" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+
+    <style name="Theme.DZ4ed.Button" parent="Theme.DZ4ed">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Theme.DZ4ed.TextView" parent="Theme.DZ4ed">
+        <item name="android:text">ТЕКСТ В ПОЛЕ</item>
+    </style>
+
+
+
 
 
 
